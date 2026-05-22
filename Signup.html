@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Exosphere</title>
+    <link rel="stylesheet" href="./stylemain.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">EXOSPHERE</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./Explore.html">Explore</a></li>
+                <li><a href="./Technology.html">Technology</a></li>
+                <li><a href="./Missions.html">Missions</a></li>
+                <li><a href="./News.html">News</a></li>
+                <li><a href="./About.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.html" class="login-btn" hidden>LOGIN</a>
+        </div>
+    </header>
+
+    <main class="login-container">
+        <div class="login-box signup-box">
+            <h2 style="position: relative; bottom: 8px;">Join the EXOSPHERE </h2>
+            <p style="position: relative; bottom: 8px; text-align: center;" >Create your Exosphere profile to begin.</p>
+            
+            <form id="signupForm" action="./index.html" method="get">
+                <div class="input-group">
+                    <label for="username" style="position: relative; top: 5px;">Username*</label>
+                    <input type="text" id="username" placeholder="AstroExplorer99" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email" style="position: relative; top: 4px;">Email Address*</label>
+                    <input type="email" id="email" placeholder="exosphere123@gmail.com" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password" style="position: relative;top: 4px;">Password*</label>
+                    <input type="password" id="password" placeholder="Create Password" required>
+                </div>
+
+                
+                <button type="submit" id="submitBtn" class="btn-glow submit-btn" style="position: relative; top: 20px;">Sign Up</button>
+            </form>
+
+            <div class="login-footer" style="position: relative; top: 18px">
+                <p>Already have ExoSphere Account? <a href="login.html">Login here</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-logo">EXOSPHERE <sup style="font-size: 12px; position: relative; bottom: 10px; right: 4px;">TM</sup></div>
+            <p>2026 Exosphere Exploration. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="">Privacy Policy</a>
+                <a href="">Terms and Conditions</a>
+                <a href="">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
